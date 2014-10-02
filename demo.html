@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Chipkoo - Fix table header demo.</title>
+</head>
+
+<body>
+    <table class="js-fixHead">
+        <tr>
+            <td>Name</td>
+            <td>Phone</td>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>9999999999</td>
+        </tr>
+    </table>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.chipkoo.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".js-fixHead").chipkoo();
+        });
+    </script>
+</body>
+</html>
