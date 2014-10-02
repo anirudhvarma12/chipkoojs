@@ -1,3 +1,6 @@
+/**
+Chipkoo.js is free and open source jquery plugin used to fix table headers. https://github.com/anirudhvarma12/chipkoojs
+**/
 (function ($) {
     $.fn.chipkoo = function () {
         var $head = $(this).find("tr:first-child");

@@ -3,25 +3,113 @@
 
 <head>
     <title>Chipkoo - Fix table header demo.</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-    <table class="js-fixHead">
-        <tr>
-            <td>Name</td>
-            <td>Phone</td>
-        </tr>
-        <tr>
-            <td>John Doe</td>
-            <td>9999999999</td>
-        </tr>
-    </table>
+    <div class="wrapper">
+        <h1><a href="https://github.com/anirudhvarma12/chipkoojs" target="_blank">Chipkoo.js</a></h1>
+        <h3>a small,light jquery plugin for fixing table headers.</h3>
+        <div class="demo demo-1">
+            <table class="js-fixHead">
+                <tr class="heading">
+                    <td>Name</td>
+                    <td>Phone</td>
+                </tr>
+                <tr>
+                    <td>John Doe</td>
+                    <td>9999999999</td>
+                </tr>
+                <tr>
+                    <td>John Doe</td>
+                    <td>9999999999</td>
+                </tr>
+                <tr>
+                    <td>John Doe</td>
+                    <td>9999999999</td>
+                </tr>
+                <tr>
+                    <td>John Doe</td>
+                    <td>9999999999</td>
+                </tr>
+                <tr>
+                    <td>John Doe</td>
+                    <td>9999999999</td>
+                </tr>
+                <tr>
+                    <td>John Doe</td>
+                    <td>9999999999</td>
+                </tr>
+                <tr>
+                    <td>John Doe</td>
+                    <td>9999999999</td>
+                </tr>
+                <tr>
+                    <td>John Doe</td>
+                    <td>9999999999</td>
+                </tr>
+                <tr>
+                    <td>John Doe</td>
+                    <td>9999999999</td>
+                </tr>
+                <tr>
+                    <td>John Doe</td>
+                    <td>9999999999</td>
+                </tr>
+                <tr>
+                    <td>John Doe</td>
+                    <td>9999999999</td>
+                </tr>
+                <tr>
+                    <td>John Doe</td>
+                    <td>9999999999</td>
+                </tr>
+                <tr>
+                    <td>John Doe</td>
+                    <td>9999999999</td>
+                </tr>
+                <tr>
+                    <td>John Doe</td>
+                    <td>9999999999</td>
+                </tr>
+                <tr>
+                    <td>John Doe</td>
+                    <td>9999999999</td>
+                </tr>
+            </table>
+        </div>
+        <pre>
+            &lt;table class="fix-this"&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;Name&lt;/td&gt;
+                    &lt;td&gt;Phone&lt;/td&gt;
+                &lt;/tr&gt;
+                &lt;tr&gt;
+                    &lt;td&gt;John Doe&lt;/td&gt;
+                    &lt;td&gt;9999999999&lt;/td&gt;
+                &lt;/tr&gt;
+                ..
+                ..
+                ..
+                ..
+            &lt;/table&gt;
+            ...
+            ...
+            
+            &lt;script&gt;
+             $(".fix-this").chipkoo();
+            &lt;/script&gt;
+            
+        </pre>
+    </div>
     <script type="text/javascript" src="jquery.min.js"></script>
     <script type="text/javascript" src="jquery.chipkoo.js"></script>
     <script>
-        $(document).ready(function(){
+        $(document).ready(function () {
             $(".js-fixHead").chipkoo();
         });
     </script>
+
 </body>
+
 </html>
